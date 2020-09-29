@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>sign_in</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/sign_in.css">
+</head>
+
+<body>
+    <section id="hero">
+        <nav class="navbar navbar-light navbar-expand-md">
+            <div class="container-fluid"><a class="navbar-brand" href="#"></a><button class="btn btn-link" id="reverse-button" type="button"><i class="icon ion-ios-world-outline"></i></button></div>
+        </nav>
+        <div class="container" id="main-content" style="width: 30%;margin-top: 50px;">
+            <h1 class="text-center" id="title">Sign In</h1>
+        </div>
+        <div class="container" id="content-easy">
+            <div class="row">
+                <div class="col">
+                    <p id="text-easy" style="font-family: Montserrat, sans-serif;">Email Address&nbsp;<i class="icon ion-ios-information-outline" title="If your account is linked to an email address you no longer have access to, please sign into your account and update your email address under account settings  If you have trouble signing in, please visit our support page"></i>&nbsp;&nbsp;</p>
+                    <input
+                        class="form-control-lg" type="email" id="input-easy"></div>
+            </div>
+        </div>
+        <div class="container" id="content-easy">
+            <div class="row">
+                <div class="col">
+                    <p id="text-easy">Password</p><input class="form-control-lg" type="password" id="input-easy"></div>
+            </div>
+        </div>
+        <div class="container d-flex justify-content-center align-items-center align-content-center" id="content-button" style="margin-top: 20px;"><button class="btn btn-primary btn-block" id="butt-cont" type="button" style="background-color: rgb(62,106,225);font-family: Montserrat, sans-serif;">SIGN IN</button></div>
+        <div class="container text-center justify-content-center align-items-center align-content-center"
+            id="text-container">
+            <div class="row">
+                <div class="col text-center d-flex justify-content-center align-items-center align-content-center" id="text-column" style="width: 100%;">
+                    <p class="text-center d-flex justify-content-center align-items-center align-content-center" id="main-paragraph" style="width: 100%;">&nbsp;<a id="content-links" href="#">Forgot email?</a>&nbsp; &nbsp; | &nbsp; &nbsp;<a id="content-links" href="#">Forgot password?</a><br></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-left d-flex justify-content-center" id="column-with-lines">
+                    <hr style="width: 30%;">
+                    <p style="width: 10%;">OR</p>
+                    <hr style="width: 30%;">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col"><button class="btn btn-primary btn-block" id="end-game" type="button"><a id="end-game-link" href="D:\Tesla Next Gen\pages\sign_up.html">CREATE ACCOUNT</a></button></div>
+            </div>
+        </div>
+    </section>
+    <div class="footer-basic">
+        <footer>
+            <ul class="list-inline" style="font-size: 12px;">
+                <li class="list-inline-item"><a href="#">Tesla © 2020</a></li>
+                <li class="list-inline-item"><a href="#">Privacy &amp; Legal</a></li>
+                <li class="list-inline-item"><a href="#">Contact</a></li>
+            </ul>
+        </footer>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

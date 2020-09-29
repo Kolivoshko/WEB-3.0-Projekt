@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>sign_up</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,600">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/sign_up.css">
+</head>
+
+<body>
+    <section id="hero" style="width: 100%;height: 100vh;">
+        <nav class="navbar navbar-light navbar-expand-md align-items-sm-end">
+            <div class="container-fluid"><a class="navbar-brand visible" href="#"></a><button class="btn btn-link" type="button" style="font-size: 22px;"><i class="icon ion-ios-world-outline"></i></button></div>
+        </nav>
+        <div class="container text-center d-flex justify-content-start align-items-start align-content-start justify-content-sm-around justify-content-md-start justify-content-lg-start justify-content-xl-start" id="main-content">
+            <h2 class="text-left d-flex justify-content-start align-items-start" id="title" style="font-family: Montserrat, sans-serif;font-weight: 600;">Create Account</h2>
+        </div>
+        <div class="container text-center" id="content">
+            <div class="row no-gutters flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row" style="margin-top: 20px;width: 100%;">
+                <div class="col justify-content-start" style="width: 100%;margin-right: 20px;">
+                    <p class="text-left" id="form-text">First name</p><input class="form-control-lg" type="text" id="input-simple" autocomplete="on"></div>
+                <div class="col" style="width: 100%;">
+                    <p class="text-left" id="form-text">Last name</p><input class="form-control-lg" type="text" id="input-simple" autocomplete="on" style="width: 100%;"></div>
+            </div>
+            <div class="row no-gutters flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row" style="width: 100%;">
+                <div class="col" style="width: 100%;margin-right: 20px;">
+                    <p class="text-left" id="form-text">Email Address</p><input class="form-control-lg" type="email" id="input-simple" autocomplete="on" style="width: 100%;"></div>
+                <div class="col" style="width: 100%;">
+                    <p class="text-left" id="form-text">Password&nbsp;<i class="icon ion-ios-information-outline" title="Please enter a valid password that has a minimum of eight characters. Password must have at least one number and one letter." style="font-size: 14px;"></i></p>
+                    <input
+                        class="form-control-lg" type="password" id="input-simple" style="color: rgb(0,0,0);width: 100%;" autocomplete="on"></div>
+            </div>
+        </div>
+        <div class="container" id="sub-content" style="width: 50%;">
+            <div class="row no-gutters" style="margin-top: 30px;width: 100%;">
+                <div class="col d-flex align-items-xl-start" style="width: 100%;"><input type="checkbox" id="checkbox-main-content">
+                    <p class="text-left" id="content-text">By creating a Tesla Account, I understand and agree to Tesla's&nbsp;&nbsp;<a id="content-link" href="#" style="color: rgb(92,92,92);font-weight: normal;">Privacy Notice&nbsp;</a>and&nbsp;<a id="content-link" href="#" style="color: rgb(92,92,92);font-weight: normal;">Terms of Use</a><br></p>
+                </div>
+            </div>
+            <div class="row no-gutters" style="margin-top: 10px;width: 100%;">
+                <div class="col d-flex d-xl-inline-flex justify-content-xl-start align-items-xl-start" style="width: 100%;"><input type="checkbox" id="checkbox-main-content">
+                    <p class="text-left" id="content-text" style="width: 100%;">Send me&nbsp;<a id="content-link" href="#" style="color: rgb(92,92,92);font-weight: normal;">updates</a>&nbsp;&nbsp;from Tesla<br></p>
+                </div>
+            </div>
+            <div class="row no-gutters" style="width: 100%;margin-top: 50px;">
+                <div class="col d-flex justify-content-start align-items-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center" style="margin-top: 0px;width: 100%;"><button class="btn btn-primary btn-block" id="button-easy" type="button">CREATE ACCOUNT</button></div>
+            </div>
+            <div class="row no-gutters" style="width: 100%;">
+                <div class="col d-flex justify-content-center align-items-center align-content-center" style="width: 100%;">
+                    <hr style="width: 30%;">
+                    <p id="button-overhead" style="margin-top: 20px;">OR</p>
+                    <hr style="width: 30%;">
+                </div>
+            </div>
+            <div class="row no-gutters" style="width: 100%;">
+                <div class="col d-flex justify-content-start align-items-center align-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center" style="width: 100%;"><button class="btn btn-primary btn-block" id="button-hard" type="button" style="background-color: rgba(54,67,81,0);color: rgb(0,0,0);font-size: 13px;font-family: Montserrat, sans-serif;font-weight: bold;">SIGN IN</button></div>
+            </div>
+        </div>
+    </section>
+    <div class="text-center d-flex justify-content-center align-items-center align-content-center footer-basic">
+        <footer class="d-flex justify-content-center align-items-center">
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Tesla © 2020</a></li>
+                <li class="list-inline-item"><a href="#">Privacy &amp; Legal</a></li>
+                <li class="list-inline-item"><a href="#">Contact</a></li>
+            </ul>
+        </footer>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
